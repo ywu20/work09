@@ -24,5 +24,6 @@ int main(){
   srand(time (NULL));
   struct Poke* squi = new_struct(rand(), "squirtle");
   print_Poke(squi);
+  free(squi);
   return 0;
 }
